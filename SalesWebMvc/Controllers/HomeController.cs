@@ -17,7 +17,9 @@ namespace SalesWebMvc.Controllers
 
     public IActionResult About()
     {
-      ViewData["Message"] = "Your application description page.";
+      ViewData["Message"] = "Sales Web Application from C# course.";
+      ViewData["Professor"] = "Nélio Alves";
+      ViewData["Email"] = "nelio@gmail.com";
 
       return View();
     }
